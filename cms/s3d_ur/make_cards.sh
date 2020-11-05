@@ -11,7 +11,7 @@ do
 	lamb1p0=1
 
 	############# Process Name  p p > X X j
-	CARDLABEL1=DMsimp_t-S3D_uR_PhiPhiToJJChiChi_Mphi-${MMED}_Mchi-${MDM}_Lambda-${lamb1p0}p0
+	CARDLABEL2=DMsimp_t-S3D_uR_JChiChi_Mphi-${MMED}_Mchi-${MDM}_Lambda-${lamb1p0}p0
 	CARDNAME1=${CARDLABEL1}    
 	DIR1=$CARDDIR/${CARDLABEL1}
 	mkdir -p $DIR1
@@ -22,7 +22,7 @@ do
 
 
 	############# Process Name p p > Y Y, Y > X j	
-	CARDLABEL2=DMsimp_t-S3D_uR_JChiChi_Mphi-${MMED}_Mchi-${MDM}_Lambda-${lamb1p0}p0
+	CARDLABEL2=DMsimp_t-S3D_uR_PhiPhiToJJChiChi_Mphi-${MMED}_Mchi-${MDM}_Lambda-${lamb1p0}p0
 	CARDNAME2=${CARDLABEL2}    
 	DIR2=$CARDDIR/${CARDLABEL2}
 	mkdir -p $DIR2
